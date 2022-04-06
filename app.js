@@ -43,7 +43,7 @@ const notes = require('./notes');
       },
       handler : (argv)=>{
          notes.removeNote(argv.title)
-      }
+      } 
   })
 
 //Create list command  

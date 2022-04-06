@@ -14,7 +14,7 @@ const fs = require('fs');
    const dataBuffer = fs.readFileSync('json.json');
    const dataJson   = dataBuffer.toString();
    const user       = JSON.parse(dataJson);
-
+   const name = "Moinuddin";
    user.title   = 'Introduction to algorithm',
    user.author  = 'CLRS'
 
